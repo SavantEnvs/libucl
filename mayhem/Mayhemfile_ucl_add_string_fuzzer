@@ -1,0 +1,5 @@
+project: savantenvs/libucl
+target: ucl_add_string_fuzzer
+cmds:
+  - cmd: /mayhem/ucl_add_string_fuzzer
+    libfuzzer: true
