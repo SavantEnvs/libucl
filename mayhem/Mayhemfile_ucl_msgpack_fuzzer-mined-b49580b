@@ -1,0 +1,5 @@
+project: savantenvs/libucl
+target: ucl_msgpack_fuzzer-mined-b49580b
+cmds:
+  - cmd: /mayhem/ucl_msgpack_fuzzer
+    libfuzzer: true
