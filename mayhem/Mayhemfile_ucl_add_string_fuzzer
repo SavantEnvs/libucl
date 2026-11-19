@@ -1,0 +1,6 @@
+# seed-from: https://app.mayhem.security/savantenvs/libucl/ucl_add_string_fuzzer
+project: savantenvs/libucl
+target: ucl_add_string_fuzzer-mined-04e5e70
+cmds:
+  - cmd: /mayhem/ucl_add_string_fuzzer
+    libfuzzer: true
